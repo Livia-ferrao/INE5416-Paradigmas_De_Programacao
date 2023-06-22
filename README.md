@@ -1,45 +1,45 @@
 # ine5416-paradigmas-de-programacao
 
-# T1- HASKELL
+## T1- HASKELL
 
-## Building the program:
+### Building the program:
 ```console
 ghc -o kojunSolver solver.hs
 ```
 
-## Running the program
+### Running the program
 ```console
 ./kojunSolver
 ```
 
-# T2- ELIXIR 2
+## T2- ELIXIR
 
-## Building and running the program:
+### Building and running the program:
 ```console
 elixirc solver.exs 
 ```
 
-# T3- PROLOG
+## T3- PROLOG
 
-## Building the program:
+### Building the program:
 ```console
 swipl ./solver.pl
 ```
 
-## Running the program
+### Running the program
 ```console
 set_prolog_flag(answer_write_options, [max_depth(0)]), solucao(Result).
 ```
 
 
-# T4- PROLOG
+## T4- PROLOG
 
-## Building the program:
+### Building the program:
 ```console
 swipl ./visita_museu.pl
 ```
 
-## Running the program
+### Running the program
 ```console
 set_prolog_flag(answer_write_options, [max_depth(0)]), solucao(Result).
 ```
