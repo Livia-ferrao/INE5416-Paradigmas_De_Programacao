@@ -1,6 +1,6 @@
 # ine5416-paradigmas-de-programacao
 
-## T1- HASKELL
+## T1- Haskell
 
 ### Building the program:
 ```console
@@ -12,14 +12,14 @@ ghc -o kojunSolver solver.hs
 ./kojunSolver
 ```
 
-## T2- ELIXIR
+## T2- Elixir
 
 ### Building and running the program:
 ```console
 elixirc solver.exs 
 ```
 
-## T3- PROLOG
+## T3- Prolog
 
 ### Building the program:
 ```console
@@ -32,7 +32,7 @@ set_prolog_flag(answer_write_options, [max_depth(0)]), solucao(Result).
 ```
 
 
-## T4- PROLOG
+## T4- Prolog
 
 ### Building the program:
 ```console
