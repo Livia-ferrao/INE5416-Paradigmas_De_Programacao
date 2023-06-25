@@ -2,44 +2,38 @@
 
 ## T1- Haskell
 
-### Building the program:
+### Running the program:
 ```console
 ghc -o kojunSolver solver.hs
 ```
-
-### Running the program
 ```console
 ./kojunSolver
 ```
 
 ## T2- Elixir
 
-### Building and running the program:
+### Running the program:
 ```console
 elixirc solver.exs 
 ```
 
 ## T3- Prolog
 
-### Building the program:
+### Running the program:
 ```console
-swipl ./solver.pl
+swipl solver.pl
 ```
-
-### Running the program
 ```console
-set_prolog_flag(answer_write_options, [max_depth(0)]), solucao(Result).
+?- set_prolog_flag(answer_write_options, [max_depth(0)]), solucao(Result).
 ```
 
 
 ## T4- Prolog
 
-### Building the program:
+### Running the program:
 ```console
 swipl ./visita_museu.pl
 ```
-
-### Running the program
 ```console
 set_prolog_flag(answer_write_options, [max_depth(0)]), solucao(Result).
 ```
